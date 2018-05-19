@@ -51,10 +51,10 @@ def getStart(name):
 
     models = {
         'dcn'   : lambda: MyDCN(dims, 90947, 8, 64, 3),
-        'dfcm'  : lambda: MyDFCM(dims, 90947, 8, 64),       # 7370, XXXX, XXXX
-        'dfcm11': lambda: MyDFCM(dims, 90947, 16, 128),     # XXXX, XXXX, XXXX
-        'dfcm12': lambda: MyDFCM(dims, 90947, 32, 128),     # XXXX, XXXX, XXXX
-        'dfcm13': lambda: MyDFCM(dims, 90947, 32, 256),     # XXXX, XXXX, XXXX
+        'dfcm'  : lambda: MyDFCM(dims, 90947, 8, 64),       # 7370, 7406, XXXX
+        'dfcm11': lambda: MyDFCM(dims, 90947, 16, 128),     # XXXX, 7431, XXXX
+        'dfcm12': lambda: MyDFCM(dims, 90947, 32, 128),     # XXXX, 7482, XXXX
+        'dfcm13': lambda: MyDFCM(dims, 90947, 32, 256),     # XXXX, 7485, XXXX
 
         'dfr'   : lambda: MyDFR(dims, 90947, 8, 64),
         'dfu'   : lambda: MyDFU(dims, 90947, 8, 64),        # 7269, XXXX, XXXX
